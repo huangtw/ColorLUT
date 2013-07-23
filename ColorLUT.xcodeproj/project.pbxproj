@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34EF68BB1771FB7F005E72D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34EF68BA1771FB7F005E72D1 /* UIKit.framework */; };
+		34EF68BD1771FB7F005E72D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34EF68BC1771FB7F005E72D1 /* Foundation.framework */; };
+		34EF68BF1771FB7F005E72D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34EF68BE1771FB7F005E72D1 /* CoreGraphics.framework */; };
+		34EF68C51771FB7F005E72D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34EF68C31771FB7F005E72D1 /* InfoPlist.strings */; };
+		34EF68C71771FB7F005E72D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EF68C61771FB7F005E72D1 /* main.m */; };
+		34EF68CB1771FB7F005E72D1 /* ColorLUTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EF68CA1771FB7F005E72D1 /* ColorLUTAppDelegate.m */; };
+		34EF68CD1771FB7F005E72D1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 34EF68CC1771FB7F005E72D1 /* Default.png */; };
+		34EF68CF1771FB7F005E72D1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34EF68CE1771FB7F005E72D1 /* Default@2x.png */; };
+		34EF68D11771FB7F005E72D1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34EF68D01771FB7F005E72D1 /* Default-568h@2x.png */; };
+		34EF68D41771FB7F005E72D1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EF68D21771FB7F005E72D1 /* MainStoryboard.storyboard */; };
+		34EF68D71771FB7F005E72D1 /* ColorLUTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EF68D61771FB7F005E72D1 /* ColorLUTViewController.m */; };
+		34EF68F317720C46005E72D1 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34EF68F217720C46005E72D1 /* CoreImage.framework */; };
+		34EF68F71774DE62005E72D1 /* colorLUT.png in Resources */ = {isa = PBXBuildFile; fileRef = 34EF68F61774DE62005E72D1 /* colorLUT.png */; };
+		34EF68FB1774E35C005E72D1 /* colorLUTProcessed.png in Resources */ = {isa = PBXBuildFile; fileRef = 34EF68FA1774E35C005E72D1 /* colorLUTProcessed.png */; };
+		34FEB507177CC4FF00DB5FCE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FEB506177CC4FF00DB5FCE /* OpenGLES.framework */; };
+		34FEB50C17946D9700DB5FCE /* CIFilter+ColorLUT.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FEB50B17946D9700DB5FCE /* CIFilter+ColorLUT.m */; };
+		34FEB50E17997E1300DB5FCE /* sunflower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34FEB50D17997E1300DB5FCE /* sunflower.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34EF68B61771FB7F005E72D1 /* ColorLUT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorLUT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EF68BA1771FB7F005E72D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34EF68BC1771FB7F005E72D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34EF68BE1771FB7F005E72D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		34EF68C21771FB7F005E72D1 /* ColorLUT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorLUT-Info.plist"; sourceTree = "<group>"; };
+		34EF68C41771FB7F005E72D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34EF68C61771FB7F005E72D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34EF68C81771FB7F005E72D1 /* ColorLUT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorLUT-Prefix.pch"; sourceTree = "<group>"; };
+		34EF68C91771FB7F005E72D1 /* ColorLUTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorLUTAppDelegate.h; sourceTree = "<group>"; };
+		34EF68CA1771FB7F005E72D1 /* ColorLUTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorLUTAppDelegate.m; sourceTree = "<group>"; };
+		34EF68CC1771FB7F005E72D1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		34EF68CE1771FB7F005E72D1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		34EF68D01771FB7F005E72D1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		34EF68D31771FB7F005E72D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		34EF68D51771FB7F005E72D1 /* ColorLUTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorLUTViewController.h; sourceTree = "<group>"; };
+		34EF68D61771FB7F005E72D1 /* ColorLUTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorLUTViewController.m; sourceTree = "<group>"; };
+		34EF68F217720C46005E72D1 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		34EF68F61774DE62005E72D1 /* colorLUT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorLUT.png; sourceTree = "<group>"; };
+		34EF68FA1774E35C005E72D1 /* colorLUTProcessed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorLUTProcessed.png; sourceTree = "<group>"; };
+		34FEB506177CC4FF00DB5FCE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		34FEB50A17946D9700DB5FCE /* CIFilter+ColorLUT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIFilter+ColorLUT.h"; sourceTree = "<group>"; };
+		34FEB50B17946D9700DB5FCE /* CIFilter+ColorLUT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIFilter+ColorLUT.m"; sourceTree = "<group>"; };
+		34FEB50D17997E1300DB5FCE /* sunflower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunflower.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34EF68B31771FB7F005E72D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FEB507177CC4FF00DB5FCE /* OpenGLES.framework in Frameworks */,
+				34EF68F317720C46005E72D1 /* CoreImage.framework in Frameworks */,
+				34EF68BB1771FB7F005E72D1 /* UIKit.framework in Frameworks */,
+				34EF68BD1771FB7F005E72D1 /* Foundation.framework in Frameworks */,
+				34EF68BF1771FB7F005E72D1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34EF68AB1771FB7F005E72D1 = {
+			isa = PBXGroup;
+			children = (
+				34EF68C01771FB7F005E72D1 /* ColorLUT */,
+				34EF68B91771FB7F005E72D1 /* Frameworks */,
+				34EF68B71771FB7F005E72D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34EF68B71771FB7F005E72D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34EF68B61771FB7F005E72D1 /* ColorLUT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34EF68B91771FB7F005E72D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34FEB506177CC4FF00DB5FCE /* OpenGLES.framework */,
+				34EF68F217720C46005E72D1 /* CoreImage.framework */,
+				34EF68BA1771FB7F005E72D1 /* UIKit.framework */,
+				34EF68BC1771FB7F005E72D1 /* Foundation.framework */,
+				34EF68BE1771FB7F005E72D1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34EF68C01771FB7F005E72D1 /* ColorLUT */ = {
+			isa = PBXGroup;
+			children = (
+				34FEB50D17997E1300DB5FCE /* sunflower.jpg */,
+				34FEB50A17946D9700DB5FCE /* CIFilter+ColorLUT.h */,
+				34FEB50B17946D9700DB5FCE /* CIFilter+ColorLUT.m */,
+				34EF68FA1774E35C005E72D1 /* colorLUTProcessed.png */,
+				34EF68F61774DE62005E72D1 /* colorLUT.png */,
+				34EF68C91771FB7F005E72D1 /* ColorLUTAppDelegate.h */,
+				34EF68CA1771FB7F005E72D1 /* ColorLUTAppDelegate.m */,
+				34EF68D21771FB7F005E72D1 /* MainStoryboard.storyboard */,
+				34EF68D51771FB7F005E72D1 /* ColorLUTViewController.h */,
+				34EF68D61771FB7F005E72D1 /* ColorLUTViewController.m */,
+				34EF68C11771FB7F005E72D1 /* Supporting Files */,
+			);
+			path = ColorLUT;
+			sourceTree = "<group>";
+		};
+		34EF68C11771FB7F005E72D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34EF68C21771FB7F005E72D1 /* ColorLUT-Info.plist */,
+				34EF68C31771FB7F005E72D1 /* InfoPlist.strings */,
+				34EF68C61771FB7F005E72D1 /* main.m */,
+				34EF68C81771FB7F005E72D1 /* ColorLUT-Prefix.pch */,
+				34EF68CC1771FB7F005E72D1 /* Default.png */,
+				34EF68CE1771FB7F005E72D1 /* Default@2x.png */,
+				34EF68D01771FB7F005E72D1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34EF68B51771FB7F005E72D1 /* ColorLUT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34EF68DA1771FB7F005E72D1 /* Build configuration list for PBXNativeTarget "ColorLUT" */;
+			buildPhases = (
+				34EF68B21771FB7F005E72D1 /* Sources */,
+				34EF68B31771FB7F005E72D1 /* Frameworks */,
+				34EF68B41771FB7F005E72D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorLUT;
+			productName = ColorLUT;
+			productReference = 34EF68B61771FB7F005E72D1 /* ColorLUT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34EF68AD1771FB7F005E72D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ColorLUT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = huangtw;
+			};
+			buildConfigurationList = 34EF68B01771FB7F005E72D1 /* Build configuration list for PBXProject "ColorLUT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34EF68AB1771FB7F005E72D1;
+			productRefGroup = 34EF68B71771FB7F005E72D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34EF68B51771FB7F005E72D1 /* ColorLUT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34EF68B41771FB7F005E72D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EF68C51771FB7F005E72D1 /* InfoPlist.strings in Resources */,
+				34EF68CD1771FB7F005E72D1 /* Default.png in Resources */,
+				34EF68CF1771FB7F005E72D1 /* Default@2x.png in Resources */,
+				34EF68D11771FB7F005E72D1 /* Default-568h@2x.png in Resources */,
+				34EF68D41771FB7F005E72D1 /* MainStoryboard.storyboard in Resources */,
+				34EF68F71774DE62005E72D1 /* colorLUT.png in Resources */,
+				34EF68FB1774E35C005E72D1 /* colorLUTProcessed.png in Resources */,
+				34FEB50E17997E1300DB5FCE /* sunflower.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34EF68B21771FB7F005E72D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EF68C71771FB7F005E72D1 /* main.m in Sources */,
+				34EF68CB1771FB7F005E72D1 /* ColorLUTAppDelegate.m in Sources */,
+				34EF68D71771FB7F005E72D1 /* ColorLUTViewController.m in Sources */,
+				34FEB50C17946D9700DB5FCE /* CIFilter+ColorLUT.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34EF68C31771FB7F005E72D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34EF68C41771FB7F005E72D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34EF68D21771FB7F005E72D1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34EF68D31771FB7F005E72D1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34EF68D81771FB7F005E72D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34EF68D91771FB7F005E72D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34EF68DB1771FB7F005E72D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorLUT/ColorLUT-Prefix.pch";
+				INFOPLIST_FILE = "ColorLUT/ColorLUT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		34EF68DC1771FB7F005E72D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorLUT/ColorLUT-Prefix.pch";
+				INFOPLIST_FILE = "ColorLUT/ColorLUT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34EF68B01771FB7F005E72D1 /* Build configuration list for PBXProject "ColorLUT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EF68D81771FB7F005E72D1 /* Debug */,
+				34EF68D91771FB7F005E72D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34EF68DA1771FB7F005E72D1 /* Build configuration list for PBXNativeTarget "ColorLUT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EF68DB1771FB7F005E72D1 /* Debug */,
+				34EF68DC1771FB7F005E72D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34EF68AD1771FB7F005E72D1 /* Project object */;
+}
